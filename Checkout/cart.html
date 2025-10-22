@@ -11,12 +11,13 @@
 <body>
   <button onclick="history.back()">Go Back</button>
   <h1>Your Shopping Cart</h1>
-  <button onclick=""> Show Quantity</button>
-  <button onClick=""> Add to Cart</button>
-  <button onClick=""> +2 </button>
-  <button onclick="">+3 </button>
-  <button onclick=""> Remove from Cart</button>
-  <button onSubmit="">Checkout</button>
+    <p id="cartCount">Items in cart: 0</p> 
+  <button onclick="showQuantity()"> Show Quantity</button>
+  <button onClick="addCart()"> Add to Cart</button>
+  <button onClick="addItem()"> +2 </button>
+  <button onclick="addItems()">+3 </button>
+  <button onclick="removeItems()"> Remove from Cart</button>
+  <button onCLick="checkout()">Checkout</button>
 </body>
 <script src="../Javascript/cart.js"></script>
 </html>
