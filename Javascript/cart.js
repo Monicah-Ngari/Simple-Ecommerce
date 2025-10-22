@@ -1,3 +1,4 @@
+let cartCount = 0;
 function showQuantity (){
   console.log(`Items in cart: ${cartCount}`);
 
@@ -24,4 +25,3 @@ function removeItems (){
   console.log(`Items in cart: ${cartCount}`);
 }
 
-let cartCount = 0;
