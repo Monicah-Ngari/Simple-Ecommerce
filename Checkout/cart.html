@@ -4,20 +4,26 @@
   <meta charset="UTF-8" />
   <title> My Cart</title>
   <link rel="stylesheet" href="../Stylesheet/index.css" />
-  <a href="../Homepage/index.html">Homepage</a>
+
   
  
 </head>
 <body>
+  <a href="../Homepage/index.html">Homepage</a>
   <button onclick="history.back()">Go Back</button>
   <h1>Your Shopping Cart</h1>
-    <p id="cartCount">Items in cart: 0</p> 
+  <p id="cartCount">Items in cart: 0</p> 
   <button onclick="showQuantity()"> Show Quantity</button>
   <button onClick="addCart()"> Add to Cart</button>
   <button onClick="addItem()"> +2 </button>
   <button onclick="addItems()">+3 </button>
   <button onclick="removeItems()"> Remove from Cart</button>
   <button onCLick="checkout()">Checkout</button>
+
+
+  <script src="../Javascript/cart.js"></script>
+
+
 </body>
-<script src="../Javascript/cart.js"></script>
+
 </html>
