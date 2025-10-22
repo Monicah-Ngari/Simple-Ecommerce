@@ -1,0 +1,27 @@
+h1{
+  color:blueviolet;
+  font-family: Arial, sans-serif;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+}
+body{
+  background-color: rgb(241, 199, 7);
+}
+a{
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+button{
+  background-color: rgb(233, 3, 118);
+  color: hsl(0, 0%, 0%);
+  padding: 20px 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: large;
+
+}
+button:hover{
+  background-color: darkviolet;
+}
