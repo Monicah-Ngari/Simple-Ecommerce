@@ -20,8 +20,10 @@ function addItems (){
 
 }
 function removeItems (){
+  
   console.log(`Removing items from cart`);
   console.log(`Items removed from the Cart: ${cartCount}`);
+  cartCount = 0;
   console.log(`Items in cart: ${cartCount}`);
 }
 
